@@ -4,18 +4,15 @@
 	<script src="js/tabletop.js"></script>
 	<script src="js/newsquiz.min.js"></script>
 		
-<!-- bootstrap.min.css is the barebones; bootstrap-responsive.css makes the quiz device-friendly -->      
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
 		
-<!-- Custom stylesheet. Use this or create your own -->
         <link href="css/style.css" rel="stylesheet" media="screen">
     </head>
     <body>
 <div id="wrap">		
-<!-- tabletop.js renders your spreadsheet data as HTML. Simply add a div below to wrap the whole thing -->
 		<div id="quiz_container"></div>
         <script type="text/javascript">
-                var quiz = jQuery('#quiz_container').quiz('https://docs.google.com/spreadsheets/d/1D_vM-JTH7LOiLBptr8PLMuF37Q-LtN8lTK2j-xVBTrE/pubhtml'); //your published spreadsheet key or URL goes here
+                var quiz = jQuery('#quiz_container').quiz('https://docs.google.com/spreadsheets/d/1D_vM-JTH7LOiLBptr8PLMuF37Q-LtN8lTK2j-xVBTrE/pubhtml'); 
         </script>
 
 
@@ -31,17 +28,13 @@
           var img = '<img src=' + instagram[i].images.standard_resolution.url + ' />';
           $("#first").append(img);
 
-            //if the instagram photo has location
             if(instagram[i].location != null) {
-              //do something with only the photos that contain a location
               $("body").append('<p>'+instagram[i].location.latitude + ' ' + instagram[i].location.longitude+'</p>');
 
               
 
             }
 
-          // var location = '<p>' + response[i].location.latitude + ', ' + response[i].location.longitude + '</p>';
-          // $("body").append(location);
         }
 
       })
@@ -62,17 +55,13 @@
           var img = '<img src=' + instagram[i].images.standard_resolution.url + ' />';
           $("#second").append(img);
 
-            //if the instagram photo has location
             if(instagram[i].location != null) {
-              //do something with only the photos that contain a location
               $("body").append('<p>'+instagram[i].location.latitude + ' ' + instagram[i].location.longitude+'</p>');
 
               
 
             }
 
-          // var location = '<p>' + response[i].location.latitude + ', ' + response[i].location.longitude + '</p>';
-          // $("body").append(location);
         }
 
       })
@@ -94,17 +83,13 @@
           var img = '<img src=' + instagram[i].images.standard_resolution.url + ' />';
           $("#third").append(img);
 
-            //if the instagram photo has location
             if(instagram[i].location != null) {
-              //do something with only the photos that contain a location
               $("body").append('<p>'+instagram[i].location.latitude + ' ' + instagram[i].location.longitude+'</p>');
 
               
 
             }
 
-          // var location = '<p>' + response[i].location.latitude + ', ' + response[i].location.longitude + '</p>';
-          // $("body").append(location);
         }
 
       })
@@ -125,17 +110,13 @@
           var img = '<img src=' + instagram[i].images.standard_resolution.url + ' />';
           $("#fourth").append(img);
 
-            //if the instagram photo has location
             if(instagram[i].location != null) {
-              //do something with only the photos that contain a location
               $("body").append('<p>'+instagram[i].location.latitude + ' ' + instagram[i].location.longitude+'</p>');
 
               
 
             }
 
-          // var location = '<p>' + response[i].location.latitude + ', ' + response[i].location.longitude + '</p>';
-          // $("body").append(location);
         }
 
       })
@@ -157,17 +138,13 @@
           var img = '<img src=' + instagram[i].images.standard_resolution.url + ' />';
           $("#fifth").append(img);
 
-            //if the instagram photo has location
             if(instagram[i].location != null) {
-              //do something with only the photos that contain a location
               $("body").append('<p>'+instagram[i].location.latitude + ' ' + instagram[i].location.longitude+'</p>');
 
               
 
             }
 
-          // var location = '<p>' + response[i].location.latitude + ', ' + response[i].location.longitude + '</p>';
-          // $("body").append(location);
         }
 
       })
@@ -189,17 +166,13 @@
           var img = '<img src=' + instagram[i].images.standard_resolution.url + ' />';
           $("#sixth").append(img);
 
-            //if the instagram photo has location
             if(instagram[i].location != null) {
-              //do something with only the photos that contain a location
               $("body").append('<p>'+instagram[i].location.latitude + ' ' + instagram[i].location.longitude+'</p>');
 
               
 
             }
 
-          // var location = '<p>' + response[i].location.latitude + ', ' + response[i].location.longitude + '</p>';
-          // $("body").append(location);
         }
 
       })
@@ -220,17 +193,13 @@
           var img = '<img src=' + instagram[i].images.standard_resolution.url + ' />';
           $("#seventh").append(img);
 
-            //if the instagram photo has location
             if(instagram[i].location != null) {
-              //do something with only the photos that contain a location
               $("body").append('<p>'+instagram[i].location.latitude + ' ' + instagram[i].location.longitude+'</p>');
 
               
 
             }
 
-          // var location = '<p>' + response[i].location.latitude + ', ' + response[i].location.longitude + '</p>';
-          // $("body").append(location);
         }
 
       })
@@ -251,17 +220,13 @@
           var img = '<img src=' + instagram[i].images.standard_resolution.url + ' />';
           $("#eighth").append(img);
 
-            //if the instagram photo has location
             if(instagram[i].location != null) {
-              //do something with only the photos that contain a location
               $("body").append('<p>'+instagram[i].location.latitude + ' ' + instagram[i].location.longitude+'</p>');
 
               
 
             }
 
-          // var location = '<p>' + response[i].location.latitude + ', ' + response[i].location.longitude + '</p>';
-          // $("body").append(location);
         }
 
       })
@@ -282,17 +247,13 @@
           var img = '<img src=' + instagram[i].images.standard_resolution.url + ' />';
           $("#ninth").append(img);
 
-            //if the instagram photo has location
             if(instagram[i].location != null) {
-              //do something with only the photos that contain a location
               $("body").append('<p>'+instagram[i].location.latitude + ' ' + instagram[i].location.longitude+'</p>');
 
               
 
             }
 
-          // var location = '<p>' + response[i].location.latitude + ', ' + response[i].location.longitude + '</p>';
-          // $("body").append(location);
         }
 
       })
