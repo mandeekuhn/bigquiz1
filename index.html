@@ -235,7 +235,32 @@
 
     </script>
 
+       <div id="ninth" class="photo"></div>   
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+    $(document).ready(function(){
 
+      $.getJSON('http://cooper-union-instagram-proxy.herokuapp.com/search/tag/vacation', function(instagram){
+        console.log(instagram);
+
+        for(var i= 0; i < 1; i++){
+          var img = '<img src=' + instagram[i].images.standard_resolution.url + ' />';
+          $("#ninth").append(img);
+
+            if(instagram[i].location != null) {
+              $("body").append('<p>'+instagram[i].location.latitude + ' ' + instagram[i].location.longitude+'</p>');
+
+              
+
+            }
+
+        }
+
+      })
+
+    });
+
+    </script>
 
 
 
